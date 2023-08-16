@@ -1,5 +1,18 @@
 # [Jotform Design System | Color Palette Tool](https://jotform.com)
+# Color Palette Tool (COPT)
 
+The Color Palette Tool (COPT) is a web-based utility developed for the Jotform Design System. This tool enables designers and developers to ensure that their chosen colors meet the accessibility requirements outlined in WCAG 2.1 and APCA (WCAG 3.0).
+
+## Getting Started
+
+To use the Color Palette Tool (COPT), follow these steps:
+
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in a web browser.
+3. Use the color picker interface to input the foreground and background colors you want to evaluate.
+4. Receive instant feedback on the contrast ratio and whether it meets the accessibility standards.
+5. If needed, explore the color suggestions provided by the tool to improve accessibility.
+6. Generate and export accessibility reports for your design documentation.
 
 ## Run locally
 
@@ -8,14 +21,6 @@
 3. Run `yarn` to install dependencies
 4. Run `yarn start` and open [http://localhost:3000](http://localhost:3000/)
 5. You are excellent!
-
-## Thanks
--  A special thank you to [Alexey Ardov](https://ardov.me) for his valuable contributions in combining different libraries to create this tool amazing tool [Hootone](https://github.com/ardov/huetone)  and enhance our product accessibility.
-
-
-# Color Palette Accessibility Checker Tool
-
-The Color Palette Accessibility Checker Tool is a web-based utility developed for the SaaS Company Design System. This tool enables designers to ensure that their chosen colors meet the accessibility requirements outlined in WCAG 2.1 and APCA (WCAG 3.0).
 
 ## Features
 
@@ -26,7 +31,7 @@ The Color Palette Accessibility Checker Tool is a web-based utility developed fo
 
 ## Getting Started
 
-To use the Color Palette Accessibility Checker Tool, follow these steps:
+To use the Color Palette Tool (COPT), follow these steps:
 
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in a web browser.
@@ -41,12 +46,15 @@ The tool is designed to work on modern web browsers, including but not limited t
 
 ## Contributing
 
-Contributions to the Color Palette Accessibility Checker Tool are welcome! If you'd like to contribute, please follow these steps:
+Contributions to the Color Palette Tool (COPT) are welcome! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and ensure the code style follows the project's guidelines.
 4. Submit a pull request, detailing the changes you've made and the problem you've solved.
+
+## Thanks
+-  A special thank you to [Alexey Ardov](https://ardov.me) for his valuable contributions in combining different libraries to create this tool amazing tool [Hootone](https://github.com/ardov/huetone) and help us to enhance our product accessibility.
 
 ## License
 
@@ -54,9 +62,8 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 ## Contact
 
-If you have any questions, suggestions, or issues related to the Color Palette Accessibility Checker Tool, please contact our development team at [dev-team@saascompany.com](mailto:dev-team@saascompany.com).
+If you have any questions, suggestions, or issues related to the Color Palette Tool (COPT), please contact our development team at [dev-team@saascompany.com](mailto:dev-team@saascompany.com).
 
 ---
 
 Designed and developed by the Jotform Design System Team.
-```
