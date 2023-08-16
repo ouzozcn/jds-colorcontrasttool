@@ -1,5 +1,4 @@
 # [Jotform Design System | Color Palette Tool](https://jotform.com)
-# Color Palette Tool (COPT)
 
 The Color Palette Tool (COPT) is a web-based utility developed for the Jotform Design System. This tool enables designers and developers to ensure that their chosen colors meet the accessibility requirements outlined in WCAG 2.1 and APCA (WCAG 3.0).
 
