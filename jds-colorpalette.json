@@ -1,0 +1,118 @@
+[
+  {
+    "color-white": "#ffffff",
+    "color-black": "#000000",
+    
+   
+        "name": "blue",
+        "colors": [
+             "#edf8ff",
+             "#77cfff",
+             "#4dbefc",
+             "#0099ff",
+             "#0075E3",
+             "#0066c3"
+        ]
+      
+
+    "green" : {},
+    "yellow" : {},
+    "orange" : {},
+    "red" : {},
+    "purple" : {},
+  
+    "color-green-100": "#edfed1",
+    "color-green-200": "#cbfb7b",
+    "color-green-300": "#a8eb38",
+    "color-green-400": "#7fca00",
+    "color-green-500": "#64b200",
+    "color-green-600": "#529300",
+
+
+    "color-yellow-100": "#fff5d2",
+    "color-yellow-200": "#ffdc7b",
+    "color-yellow-300": "#ffc42c",
+    "color-yellow-400": "#ffb629",
+    "color-yellow-500": "#f9a400",
+    "color-yellow-600": "#f49200",
+
+
+    "color-orange-100": "#ffe4cc",
+    "color-orange-200": "#fec48e",
+    "color-orange-300": "#ffa34f",
+    "color-orange-400": "#ff7b1c",
+    "color-orange-500": "#ff6100",
+    "color-orange-600": "#e55300",
+
+
+    "color-red-100": "#fef2f2",
+    "color-red-200": "#fecaca",
+    "color-red-300": "#f87171",
+    "color-red-400": "#dc2626",
+    "color-red-500": "#c90909",
+    "color-red-600": "#ab0101",
+
+
+    "color-purple-100": "#f3e2ff",
+    "color-purple-200": "#e0b7fd",
+    "color-purple-300": "#bf78f0",
+    "color-purple-400": "#9c4dd3",
+    "color-purple-500": "#892dca",
+    "color-purple-600": "#6915a4",
+
+    "color-navy-10": "#F9F9FF",
+    "color-navy-25": "#F3F3FE",
+    "color-navy-50": "#E3E5F5",
+    "color-navy-75": "#dadef3",
+    "color-navy-100": "#c8ceed",
+    "color-navy-200": "#979dc6",
+    
+    "color-gray-25": "#f3f4f7",
+    "color-gray-50": "#e6e9ef",
+    "color-gray-75": "#dadee7",
+    "color-gray-100": "#b5bcc5",
+    "color-gray-200": "#949fae",
+    "color-gray-300": "#6b7584",
+    "color-gray-400": "#545f6f",
+    "color-gray-500": "#4a5361",
+    "color-gray-600": "#3e4652",
+    "color-gray-700": "#2f333a",
+    "color-gray-800": "#23262c",
+    "color-gray-900": "#0a0b0d",
+
+
+    "color-analytics-light": "#B9BEDF",
+    "color-analytics-default": "#8F96CC",
+    "color-analytics-dark": "#737CBF",
+    "color-approvals-light": "#008F75",
+    "color-approvals-default": "#007862",
+    "color-approvals-dark": "#006653",
+    "color-apps-light": "#bf78f0",
+    "color-apps-default": "#9c4dd3",
+    "color-apps-dark": "#892dca",
+    "color-forms-light": "#ff7b1c",
+    "color-forms-default": "#ff6100",
+    "color-forms-dark": "#e55300",
+    "color-inbox-light": "#59BED2",
+    "color-inbox-default": "#249BB4",
+    "color-inbox-dark": "#1989A0",
+    "color-pages-light": "#5887BF",
+    "color-pages-default": "#034F96",
+    "color-pages-dark": "#03294C",
+    "color-pdf-light": "#628EFF",
+    "color-pdf-default": "#3E62C8",
+    "color-pdf-dark": "#2F4EAD",
+    "color-reports-light": "#728DDD",
+    "color-reports-default": "#5369AB",
+    "color-reports-dark": "#344067",
+    "color-sign-light": "#94CD2A",
+    "color-sign-default": "#7BB60F",
+    "color-sign-dark": "#6DA900",
+    "color-tables-light": "#37C768",
+    "color-tables-default": "#049E38",
+    "color-tables-dark": "#007B2A",
+    "color-teams-light": "#303C77",
+    "color-teams-default": "#18235C",
+    "color-teams-dark": "#0C1540"
+  }
+]

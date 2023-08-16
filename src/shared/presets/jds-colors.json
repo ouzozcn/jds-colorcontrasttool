@@ -1,0 +1,107 @@
+{
+  "name": "Jotform Design System Color Palette",
+  "hues": [
+    {
+      "name": "Blue",
+      "colors": [
+        "#edf8ff",
+        "#77cfff",
+        "#4dbefc",
+        "#0099ff",
+        "#0075E3",
+        "#0066c3"
+      ]
+    },
+    {
+      "name": "Green",
+      "colors": [
+        "#edfed1",
+        "#cbfb7b",
+        "#a8eb38",
+        "#7fca00",
+        "#64b200",
+        "#529300",
+      ]
+    },
+    {
+      "name": "Yellow",
+      "colors": [
+       "#fff5d2",
+        "#ffdc7b",
+        "#ffc42c",
+        "#ffb629",
+        "#f9a400",
+        "#f49200",
+      ]
+    },
+    {
+      "name": "Orange",
+      "colors": [
+            "#ffe4cc",
+            "#fec48e",
+            "#ffa34f",
+            "#ff7b1c",
+            "#ff6100",
+            "#e55300",
+      ]
+    },
+    {
+      "name": "Red",
+      "colors": [
+            "#fef2f2",
+            "#fecaca",
+            "#f87171",
+            "#dc2626",
+            "#c90909",
+            "#ab0101",
+      ]
+    },
+    {
+      "name": "Purple",
+      "colors": [
+            "#f3e2ff",
+            "#e0b7fd",
+            "#bf78f0",
+            "#9c4dd3",
+            "#892dca",
+            "#6915a4",
+      ]
+    },
+    {
+      "name": "Navy",
+      "colors": [
+            "#F9F9FF",
+            "#F3F3FE",
+            "#E3E5F5",
+            "#dadef3",
+            "#c8ceed",
+            "#979dc6",
+            "#6C73A8",
+            "#454e80",
+            "#343c6a",
+            "#252d5b",
+            "#0a1551",
+            "#091141",
+            "#050c34",
+      ]
+    }
+    {
+        "name": "Gray",
+        "colors": [
+            "#f3f4f7",
+            "#e6e9ef",
+            "#dadee7",
+            "#b5bcc5",
+            "#949fae",
+            "#6b7584",
+            "#545f6f",
+            "#4a5361",
+            "#3e4652",
+            "#2f333a",
+            "#23262c",
+            "#0a0b0d",
+        ]
+      }
+  ],
+  "tones": ["100", "200", "300", "400", "500", "600", "700",]
+}
