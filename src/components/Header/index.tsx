@@ -9,6 +9,7 @@ import { CopyButton } from '../CopyButton'
 import { Link } from 'shared/icons/Link'
 import { GitHub } from 'shared/icons/GitHub'
 import { Figma } from 'shared/icons/Figma'
+import { Jotform } from 'shared/icons/Jotform'
 import { paletteStore } from 'store/palette'
 import {
   overlayStore,
@@ -38,9 +39,15 @@ export function Header() {
   return (
     <Wrapper>
      
-
-      <ControlRow>
-      <h3>Jotform Design System - Color Palette</h3>
+     <ControlRow>
+        <Button as="a" href="./">
+          <Jotform/>
+        </Button>
+        <PaletteSelect />
+        <CopyButton getContent={() => getPaletteLink(palette)}>
+          <Link />
+          Copy link
+        </CopyButton>
       </ControlRow>
 
       <ControlRow>
