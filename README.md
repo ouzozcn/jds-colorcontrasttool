@@ -1,10 +1,10 @@
-# [Jotform Design System | Color Palette Tool](https://jotform.com)
+# [Jotform Design System | Color Contrast Tool](https://jotform.com)
 
-The Color Palette Tool (COPT) is a web-based utility developed for the Jotform Design System. This tool enables designers and developers to ensure that their chosen colors meet the accessibility requirements outlined in WCAG 2.1 and APCA (WCAG 3.0).
+The Color Contrast Tool is a web-based utility developed for the Jotform Design System. This tool enables designers and developers to ensure that their chosen colors meet the accessibility requirements outlined in WCAG 2.1 and APCA (WCAG 3.0).
 
 ## Getting Started
 
-To use the Color Palette Tool (COPT), follow these steps:
+To use the Color Contrast Tool, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in a web browser.
@@ -30,7 +30,7 @@ To use the Color Palette Tool (COPT), follow these steps:
 
 ## Getting Started
 
-To use the Color Palette Tool (COPT), follow these steps:
+To use the Color Contrast Tool, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in a web browser.
@@ -45,7 +45,7 @@ The tool is designed to work on modern web browsers, including but not limited t
 
 ## Contributing
 
-Contributions to the Color Palette Tool (COPT) are welcome! If you'd like to contribute, please follow these steps:
+Contributions to the Color Contrast Tool are welcome! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
@@ -61,7 +61,7 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 ## Contact
 
-If you have any questions, suggestions, or issues related to the Color Palette Tool (COPT), please contact our development team at [dev-team@saascompany.com](mailto:dev-team@saascompany.com).
+If you have any questions, suggestions, or issues related to the Color Contrast Tool, please contact our development team at [dev-team@saascompany.com](mailto:dev-team@saascompany.com).
 
 ---
 
