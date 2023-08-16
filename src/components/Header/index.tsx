@@ -77,10 +77,10 @@ export function Header() {
       </ControlRow>
       <ControlRow>
       <ThemeButton />
-        <Button as="a" target="_blank" href="https://github.com/ouzozcn">
+        <Button as="a" target="_blank" href="https://github.com/ouzozcn/jds-colorpalette">
           <GitHub />
         </Button>
-        <Button as="a" target="_blank" href="https://www.figma.com/file/xQtrZIWRI9AvflqMKQ7wNK/00.-Foundations?type=design&node-id=0-1&mode=design&t=IEhk46a2CdPYtQBo-0">
+        <Button as="a" target="_blank" href="#">
           <Figma/>
         </Button>
       </ControlRow>
