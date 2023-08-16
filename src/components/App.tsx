@@ -13,6 +13,7 @@ import { paletteStore } from 'store/palette'
 import { selectedStore, setSelected } from 'store/currentPosition'
 import { Header } from './Header'
 
+
 const chartWidth = 400
 
 export default function App() {
@@ -31,10 +32,15 @@ export default function App() {
         <KeyPressHandler />
         <PaletteSection>
           <PaletteSwatches />
-          <ColorInfo />
-          
+        
         </PaletteSection>
+        <ColorSection>
+        <ColorInfo />
+        </ColorSection>
+        
       </Wrapper>
+      
+     
     </div>
   )
 }
@@ -62,6 +68,17 @@ const PaletteSection = styled.section`
   gap: 16px;
   padding: 16px;
 `
+const ColorSection = styled.section`
+  --c-bg: var(--c-bg-card);
+  overflow: auto;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  padding: 16px 24px;
+  flex-grow: 1;
+  background: var(--c-bg);
+  overflow: auto;
+  `
 
 
 const Axis = styled.div`
