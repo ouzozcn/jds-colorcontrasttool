@@ -2,6 +2,13 @@
 
 The Color Contrast Tool is a web-based utility developed for the Jotform Design System. This tool enables designers and developers to ensure that their chosen colors meet the accessibility requirements outlined in WCAG 2.1 and APCA (WCAG 3.0).
 
+## Features
+
+- Evaluate Color Contrast: The tool allows designers to input color combinations and instantly checks the contrast ratio between them to ensure readability and accessibility.
+- Accessibility Guidelines: The tool follows the WCAG 2.1 and APCA (WCAG 3.0) guidelines for color contrast ratios, making it easier for designers to meet the necessary accessibility standards.
+- Color Suggestions: In cases where the contrast ratio does not meet the requirements, the tool provides suggestions for alternative color options that would maintain accessibility.
+- Export Reports: Designers can generate accessibility reports that outline the color combinations that pass or fail the accessibility checks. This helps in documenting compliance and tracking improvements over time.
+
 ## Getting Started
 
 To use the Color Contrast Tool, follow these steps:
@@ -21,23 +28,6 @@ To use the Color Contrast Tool, follow these steps:
 4. Run `yarn start` and open [http://localhost:3000](http://localhost:3000/)
 5. You are excellent!
 
-## Features
-
-- Evaluate Color Contrast: The tool allows designers to input color combinations and instantly checks the contrast ratio between them to ensure readability and accessibility.
-- Accessibility Guidelines: The tool follows the WCAG 2.1 and APCA (WCAG 3.0) guidelines for color contrast ratios, making it easier for designers to meet the necessary accessibility standards.
-- Color Suggestions: In cases where the contrast ratio does not meet the requirements, the tool provides suggestions for alternative color options that would maintain accessibility.
-- Export Reports: Designers can generate accessibility reports that outline the color combinations that pass or fail the accessibility checks. This helps in documenting compliance and tracking improvements over time.
-
-## Getting Started
-
-To use the Color Contrast Tool, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Open the `index.html` file in a web browser.
-3. Use the color picker interface to input the foreground and background colors you want to evaluate.
-4. Receive instant feedback on the contrast ratio and whether it meets the accessibility standards.
-5. If needed, explore the color suggestions provided by the tool to improve accessibility.
-6. Generate and export accessibility reports for your design documentation.
 
 ## Compatibility
 

@@ -77,7 +77,7 @@ export function Header() {
       </ControlRow>
       <ControlRow>
       <ThemeButton />
-        <Button as="a" target="_blank" href="https://github.com/ouzozcn/jds-colorpalette">
+        <Button as="a" target="_blank" href="https://github.com/ouzozcn/jds-colorcontrasttool">
           <GitHub />
         </Button>
         <Button as="a" target="_blank" href="#">

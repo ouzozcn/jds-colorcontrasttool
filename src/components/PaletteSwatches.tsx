@@ -10,9 +10,8 @@ import {
   addHue,
   addTone,
   removeHue,
-  removeTone,
-  renameHue,
-  renameTone,
+  removeTone
+
 } from 'store/palette'
 import { useKeyPress } from 'shared/hooks/useKeyPress'
 import { Button, InvisibleInput } from './inputs'
@@ -55,12 +54,6 @@ export const PaletteSwatches: FC = () => {
           onChange={e => setPalette(renameTone(palette, tone, e.target.value))}
         />
       ))}
-      <SmallButton
-        title="Add tone"
-        onClick={() => setPalette(addTone(palette))}
-      >
-        +
-      </SmallButton>
 
       {/* HUES */}
       {colors.map((hueColors, hueId) => (
@@ -87,34 +80,14 @@ export const PaletteSwatches: FC = () => {
                   borderRadius: isSelected ? 'var(--radius-m)' : 0,
                   transform: isSelected ? 'scale(1.25)' : 'scale(1)',
                   zIndex: isSelected ? 3 : 0,
-                  fontWeight: isSelected ? 900 : 400,
+                  fontWeight: isSelected ? 900 : 500,
                 }}
               >
                 <span>{getCR(color.hex)}</span>
               </Swatch>
             )
           })}
-          <SmallButton
-            title="Delete this row"
-            onClick={() => setPalette(removeHue(palette, hueId))}
-          >
-            ×
-          </SmallButton>
         </Fragment>
-      ))}
-
-      {/* COLUMN BUTTONS */}
-      <SmallButton title="Add row" onClick={() => setPalette(addHue(palette))}>
-        +
-      </SmallButton>
-      {tones.map((toneName, toneId) => (
-        <SmallButton
-          key={toneId}
-          title="Delete this column"
-          onClick={() => setPalette(removeTone(palette, toneId))}
-        >
-          ×
-        </SmallButton>
       ))}
     </Wrapper>
   )
@@ -122,8 +95,8 @@ export const PaletteSwatches: FC = () => {
 
 const Wrapper = styled.div<{ columns: number; rows: number }>`
   display: grid;
-  grid-template-columns: 64px repeat(${p => p.columns}, 48px) 24px;
-  grid-template-rows: 32px repeat(${p => p.rows}, 48px) 24px;
+  grid-template-columns: 96px repeat(${p => p.columns}, 64px);
+  grid-template-rows: 48px repeat(${p => p.rows}, 64px);
 `
 
 const ToneInput = styled(InvisibleInput)`
@@ -136,6 +109,7 @@ const Swatch = styled.button`
   position: relative;
   border: none;
   align-items: center;
+  font-size: 16px;
   justify-content: center;
   will-change: transform;
 
