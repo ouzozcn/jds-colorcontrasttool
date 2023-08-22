@@ -44,14 +44,6 @@ export function Header() {
           <Jotform/>
         </Button>
         <PaletteSelect />
-        <CopyButton getContent={() => getPaletteLink(palette)}>
-          <Link />
-          Copy link
-        </CopyButton>
-      </ControlRow>
-
-      <ControlRow>
-        
         <ControlGroup>
           <Button
             onClick={() => {
@@ -74,6 +66,11 @@ export function Header() {
             </Button>
           )}
         </ControlGroup>
+      </ControlRow>
+
+      <ControlRow>
+        
+        
       </ControlRow>
       <ControlRow>
       <ThemeButton />

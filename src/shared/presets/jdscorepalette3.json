@@ -1,0 +1,95 @@
+{
+  "name": "Product Colors",
+  "hues": [
+    {
+      "name": "Analytics",
+      "colors": [
+        "#B9BEDF",
+        "#8F96CC",
+        "#737CBF"
+      ]
+    },
+    {
+      "name": "Approvals",
+      "colors": [
+        "#008F75",
+        "#007862",
+        "#006653"
+      ]
+    },
+    {
+      "name": "Apps",
+      "colors": [
+        "#bf78f0",
+        "#9c4dd3",
+        "#892dca"
+      ]
+    },
+    {
+      "name": "Forms",
+      "colors": [
+        "#ff7b1c",
+        "#ff6100",
+        "#e55300"
+      ]
+    },
+    {
+        "name": "Inbox",
+        "colors": [
+            "#59BED2",
+            "#249BB4",
+            "#1989A0"
+        ]
+      },
+      {
+        "name": "Pages",
+        "colors": [
+            "#5887BF",
+            "#034F96",
+            "#03294C"
+        ]
+      },
+      {
+        "name": "PDF Editor",
+        "colors": [
+            "#628EFF",
+            "#3E62C8",
+            "#2F4EAD"
+        ]
+      },
+      {
+        "name": "Reports",
+        "colors": [
+            "#728DDD",
+            "#5369AB",
+            "#344067"
+        ]
+      },
+      {
+        "name": "Sign",
+        "colors": [
+            "#94CD2A",
+            "#7BB60F",
+            "#6DA900"
+        ]
+      },
+      {
+        "name": "Tables",
+        "colors": [
+            "#37C768",
+            "#049E38",
+            "#007B2A"
+        ]
+      },
+      {
+        "name": "Teams",
+        "colors": [
+            "#303C77",
+            "#18235C",
+            "#0C1540"
+        ]
+      }
+    
+  ],
+  "tones": ["Light", "Default", "Dark"]
+}

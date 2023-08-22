@@ -2737,9 +2737,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"huetone@workspace:.":
+"jds-cct@workspace:.":
   version: 0.0.0-use.local
-  resolution: "huetone@workspace:."
+  resolution: "jds-cct@workspace:."
   dependencies:
     "@nanostores/persistent": ^0.5.1
     "@nanostores/react": ^0.1.5

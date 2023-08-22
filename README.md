@@ -23,7 +23,7 @@ To use the Color Contrast Tool, follow these steps:
 ## Run locally
 
 1. Install [Yarn](https://yarnpkg.com/getting-started/install)
-2. Clone and open Huetone repo
+2. Clone and open this repo
 3. Run `yarn` to install dependencies
 4. Run `yarn start` and open [http://localhost:3000](http://localhost:3000/)
 5. You are excellent!
@@ -43,7 +43,7 @@ Contributions to the Color Contrast Tool are welcome! If you'd like to contribut
 4. Submit a pull request, detailing the changes you've made and the problem you've solved.
 
 ## Thanks
--  A special thank you to [Alexey Ardov](https://ardov.me) for his valuable contributions in combining different libraries to create this tool amazing tool [Hootone](https://github.com/ardov/huetone) and help us to enhance our product accessibility.
+-  A special thank you to [Alexey Ardov](https://ardov.me) for his valuable contributions in combining different libraries to create this tool amazing tool [Huetone](https://github.com/ardov/huetone) and help us to enhance our product accessibility.
 
 ## License
 

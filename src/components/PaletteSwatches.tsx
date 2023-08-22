@@ -51,7 +51,7 @@ export const PaletteSwatches: FC = () => {
         <ToneInput
           key={tone}
           value={toneName}
-          onChange={e => setPalette(renameTone(palette, tone, e.target.value))}
+         
         />
       ))}
 
@@ -61,9 +61,7 @@ export const PaletteSwatches: FC = () => {
           <InvisibleInput
             key={hueId}
             value={hues[hueId]}
-            onChange={e =>
-              setPalette(renameHue(palette, hueId, e.target.value))
-            }
+            
           />
           {hueColors.map((color, toneId) => {
             const isSelected =
@@ -109,7 +107,7 @@ const Swatch = styled.button`
   position: relative;
   border: none;
   align-items: center;
-  font-size: 16px;
+  font-size: 18px;
   justify-content: center;
   will-change: transform;
 
