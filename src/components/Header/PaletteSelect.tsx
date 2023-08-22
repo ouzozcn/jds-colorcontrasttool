@@ -36,9 +36,7 @@ export const PaletteSelect = () => {
   return (
     <ControlGroup>
       <PaletteSelectComponent />
-      <Button title="Rename palette" onClick={() => setRenameState(true)}>
-        <Edit />
-      </Button>
+     
     </ControlGroup>
   )
 }

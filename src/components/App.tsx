@@ -6,7 +6,6 @@ import { PaletteSwatches } from './PaletteSwatches'
 import { setLchColor } from 'store/palette'
 import { ExportField } from './Export'
 import { ColorInfo } from './ColorInfo'
-import { Help } from './Help'
 import { KeyPressHandler } from './KeyPressHandler'
 import { useKeyPress } from 'shared/hooks/useKeyPress'
 import { paletteStore } from 'store/palette'
@@ -69,7 +68,8 @@ const PaletteSection = styled.section`
   padding: 16px;
 `
 const ColorSection = styled.section`
-  --c-bg: var(--c-bg-card);
+  width: 50%;  
+--c-bg: var(--c-bg-card);
   overflow: auto;
   display: flex;
   gap: 16px;

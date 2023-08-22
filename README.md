@@ -2,25 +2,6 @@
 
 The Color Contrast Tool is a web-based utility developed for the Jotform Design System. This tool enables designers and developers to ensure that their chosen colors meet the accessibility requirements outlined in WCAG 2.1 and APCA (WCAG 3.0).
 
-## Getting Started
-
-To use the Color Contrast Tool, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Open the `index.html` file in a web browser.
-3. Use the color picker interface to input the foreground and background colors you want to evaluate.
-4. Receive instant feedback on the contrast ratio and whether it meets the accessibility standards.
-5. If needed, explore the color suggestions provided by the tool to improve accessibility.
-6. Generate and export accessibility reports for your design documentation.
-
-## Run locally
-
-1. Install [Yarn](https://yarnpkg.com/getting-started/install)
-2. Clone and open Huetone repo
-3. Run `yarn` to install dependencies
-4. Run `yarn start` and open [http://localhost:3000](http://localhost:3000/)
-5. You are excellent!
-
 ## Features
 
 - Evaluate Color Contrast: The tool allows designers to input color combinations and instantly checks the contrast ratio between them to ensure readability and accessibility.
@@ -39,6 +20,15 @@ To use the Color Contrast Tool, follow these steps:
 5. If needed, explore the color suggestions provided by the tool to improve accessibility.
 6. Generate and export accessibility reports for your design documentation.
 
+## Run locally
+
+1. Install [Yarn](https://yarnpkg.com/getting-started/install)
+2. Clone and open this repo
+3. Run `yarn` to install dependencies
+4. Run `yarn start` and open [http://localhost:3000](http://localhost:3000/)
+5. You are excellent!
+
+
 ## Compatibility
 
 The tool is designed to work on modern web browsers, including but not limited to Chrome, Firefox, Safari, and Edge.
@@ -53,7 +43,7 @@ Contributions to the Color Contrast Tool are welcome! If you'd like to contribut
 4. Submit a pull request, detailing the changes you've made and the problem you've solved.
 
 ## Thanks
--  A special thank you to [Alexey Ardov](https://ardov.me) for his valuable contributions in combining different libraries to create this tool amazing tool [Hootone](https://github.com/ardov/huetone) and help us to enhance our product accessibility.
+-  A special thank you to [Alexey Ardov](https://ardov.me) for his valuable contributions in combining different libraries to create this tool amazing tool [Huetone](https://github.com/ardov/huetone) and help us to enhance our product accessibility.
 
 ## License
 

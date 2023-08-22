@@ -1,5 +1,5 @@
 {
-  "name": "huetone",
+  "name": "jds-cct",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -22,6 +22,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.5",
+    "tailwindcss": "^3.3.3",
     "use-local-storage-state": "^10.0.0",
     "web-vitals": "^0.2.4",
     "workbox-background-sync": "^5.1.3",

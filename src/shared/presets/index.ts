@@ -1,8 +1,12 @@
 import { HexPalette } from '../types'
-import jdscolors from './jdscolors.json'
+import jdscorepalette from './jdscorepalette.json'
+import jdscorepalette2 from './jdscorepalette2.json'
+import jdscorepalette3 from './jdscorepalette3.json'
 
 
 export const PRESETS: HexPalette[] = [
-  jdscolors, 
+  jdscorepalette,
+  jdscorepalette2,
+  jdscorepalette3,
   
 ]
