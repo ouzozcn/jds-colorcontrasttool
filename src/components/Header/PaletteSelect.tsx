@@ -36,7 +36,6 @@ export const PaletteSelect = () => {
   return (
     <ControlGroup>
       <PaletteSelectComponent />
-     
     </ControlGroup>
   )
 }

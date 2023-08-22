@@ -31,7 +31,6 @@ export default function App() {
         <KeyPressHandler />
         <PaletteSection>
           <PaletteSwatches />
-        
         </PaletteSection>
         <ColorSection>
         <ColorInfo />

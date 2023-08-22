@@ -25,10 +25,10 @@ import { ChartSettings } from './ChartSettings'
 const modes: TOverlayMode[] = ['APCA', 'WCAG', 'NONE', 'DELTA_E']
 
 const texts = {
-  APCA: 'APCA contrast',
-  WCAG: 'WCAG contrast',
-  NONE: 'Without overlay',
-  DELTA_E: 'Delta E distance',
+  APCA: 'APCA Contrast',
+  WCAG: 'WCAG Contrast',
+  NONE: 'Without Overlay',
+  DELTA_E: 'Delta E Distance',
 }
 
 export function Header() {
