@@ -95,6 +95,7 @@ const Wrapper = styled.div<{ columns: number; rows: number }>`
   display: grid;
   grid-template-columns: 96px repeat(${p => p.columns}, 64px);
   grid-template-rows: 48px repeat(${p => p.rows}, 64px);
+  margin-left: 24px;
 `
 
 const ToneInput = styled(InvisibleInput)`

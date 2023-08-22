@@ -11,16 +11,53 @@ export const ColorInfo: FC = () => {
   const { tones } = useStore(paletteStore)
   return (
     <ContrastStack>
+      <section><h3>❉ In contrast to the chosen color's tones</h3> </section>  
       <ContrastGroup versusColor={tones[0]} />
-      <ContrastGroup versusColor={'white'} />
-      <ContrastGroup versusColor={'black'} />
+      <section> <hr
+        style={{
+         
+          background: 'gray',
+          opacity:'40%',
+          height: '1px',
+        }}
+      /></section>
+      
+      <section><h3>❉ Paste your #HEX </h3>
+     
+      </section>
+      <ContrastGroup versusColor={'#F24D1D'} />
+      <section> <hr
+        style={{
+         
+          background: 'gray',
+          opacity:'40%',
+          height: '1px',
+        }}
+      /></section>
+      <section><h3>❉ In contrast to White</h3>
+      
+      </section>
+
+      <ContrastGroup versusColor={'White'} />
+      <section> <hr
+        style={{
+         
+          background: 'gray',
+          opacity:'40%',
+          height: '1px',
+        }}
+      /></section>
+      <section><h3>❉ In contrast to Black</h3>
+      
+      </section>
+      <ContrastGroup versusColor={'Black'} />
     </ContrastStack>
   )
 }
 const ContrastStack = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 4px;
 `
 
 const ContrastGroup: FC<{ versusColor: string }> = props => {
@@ -64,6 +101,7 @@ const Wrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
+
 `
 const Heading = styled.div`
   padding-top: 8px;
