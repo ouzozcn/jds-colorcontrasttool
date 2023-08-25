@@ -60,7 +60,7 @@ export const InvisibleInput = styled.input`
 `
 
 export const Input = styled.input`
-  border: 1px solid transparent;
+  border: 1px solid #c8ceed;
   border-radius: var(--radius-m);
   color: var(--c-text-primary);
   background: var(--c-btn-bg);
