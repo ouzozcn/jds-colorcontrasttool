@@ -1,0 +1,42 @@
+{
+  "name": "Secondary Colors",
+  "hues": [
+    {
+      "name": "Text",
+      "colors": [
+        "#ffffff",
+        "#b5bcc5",
+        "#949fae",
+        "#6b7584",
+        "#4a5361",
+        "#2f333a"
+      ]
+    },
+    {
+      "name": "Background",
+      "colors": [
+        "#ffffff",
+        "#545f6f",
+        "#4a5361",
+        "#3e4652",
+        "#2f333a",
+        "#23262c"
+      ]
+    },
+    {
+      "name": "Border",
+      "colors": [
+        "#ffffff",
+        "#949fae",
+        "#949fae",
+        "#4a5361",
+        "#2f333a",
+        "#2f333a"
+
+      ]
+    }
+   
+    
+  ],
+  "tones": ["White", "Lightest", "Light", "Medium", "Dark", "Darkest"]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Semantic Colors",
+  "hues": [
+    {
+      "name": "Accent",
+      "colors": [
+       "#edf8ff",
+       "#4dbefc",
+       "#0075E3",
+       "#0066c3"
+      ]
+    },
+    {
+      "name": "Success",
+      "colors": [
+       "#edfed1",
+       "#cbfb7b",
+       "#64b200",
+       "#529300"
+      ]
+    },
+    {
+      "name": "Error",
+      "colors": [
+        "#fef2f2",
+        "#fecaca",
+        "#dc2626",
+        "#ab0101"
+
+      ]
+    },
+    {
+      "name": "Notice",
+      "colors": [
+        "#fff5d2",
+        "#ffdc7b",
+        "#f9a400",
+        "#f49200"
+
+      ]
+    }
+   
+    
+  ],
+  "tones": ["Lightest", "Light", "Default", "Dark"]
+}

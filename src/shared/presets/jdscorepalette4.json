@@ -1,0 +1,41 @@
+{
+  "name": "Primary Colors",
+  "hues": [
+    {
+      "name": "Text",
+      "colors": [
+        "#ffffff",
+        "#E3E5F5",
+        "#c8ceed",
+        "#6C73A8",
+        "#343c6a",
+        "#0a1551"
+      ]
+    },
+    {
+      "name": "Background",
+      "colors": [
+        "#ffffff",
+        "#F3F3FE",
+        "#dadef3",
+        "#c8ceed",
+        "#6C73A8",
+        "#0a1551"
+      ]
+    },
+    {
+      "name": "Border",
+      "colors": [
+        "#ffffff",
+        "#E3E5F5",
+        "#c8ceed",
+        "#343c6a",
+        "#0a1551",
+        "#0a1551"
+      ]
+    }
+   
+    
+  ],
+  "tones": ["White", "Lightest", "Light", "Medium", "Dark", "Darkest"]
+}
