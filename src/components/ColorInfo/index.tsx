@@ -22,7 +22,7 @@ export const ColorInfo: FC = () => {
         }}
       /></section>
       
-      <section><h3>❉ Paste your #HEX </h3>
+      <section><h3>❉ Paste your #HEX Code </h3>
      
       </section>
       <ContrastGroup versusColor={'#F24D1D'} />
