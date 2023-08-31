@@ -11,7 +11,7 @@ export const ColorInfo: FC = () => {
   const { tones } = useStore(paletteStore)
   return (
     <ContrastStack>
-      <section><h3>❉ In contrast to the chosen color's tones</h3> </section>  
+      <section><h3>❉ In contrast to the chosen color's tones test</h3> </section>  
       <ContrastGroup versusColor={tones[0]} />
       <section> <hr
         style={{
