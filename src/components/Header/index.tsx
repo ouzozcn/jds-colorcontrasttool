@@ -77,9 +77,7 @@ export function Header() {
         <Button as="a" target="_blank" href="https://github.com/ouzozcn/jds-colorcontrasttool">
           <GitHub />
         </Button>
-        <Button as="a" target="_blank" href="https://www.figma.com/files/1157226469980826439/team/1161922917534132058">
-          <Figma/>
-        </Button>
+        
       </ControlRow>
     </Wrapper>
   )
